@@ -1,0 +1,1 @@
+Run with: vivado -mode batch -source run_pincheck.tcl
