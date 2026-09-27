@@ -92,7 +92,7 @@ set_property -dict {PACKAGE_PIN E13 IOSTANDARD LVCMOS33} [get_ports {pad_gpmc_ad
 # Permanent GPMC control
 # -----------------------------------------------------------------------------
 # GPMC CSn0; FPGA FCS_B multifunction pin
-set_property -dict {PACKAGE_PIN C11 IOSTANDARD LVCMOS33} [get_ports {pad_gpmc_csn0}]
+set_property -dict {PACKAGE_PIN B6 IOSTANDARD LVCMOS33} [get_ports {pad_gpmc_csn0}]
 # GPMC OEn/REn
 set_property -dict {PACKAGE_PIN D14 IOSTANDARD LVCMOS33} [get_ports {pad_gpmc_oen_ren}]
 # GPMC WEn
