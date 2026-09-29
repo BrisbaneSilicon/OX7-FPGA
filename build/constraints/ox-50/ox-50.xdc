@@ -46,7 +46,7 @@ set_property -dict {PACKAGE_PIN G4 IOSTANDARD LVCMOS33} [get_ports {pad_sysclk}]
 # CPU reset/status management
 # -----------------------------------------------------------------------------
 # FPGA -> external MCU_PORz reset/permit logic
-set_property -dict {PACKAGE_PIN A10 IOSTANDARD LVCMOS33} [get_ports {pad_cpu_rstn}]
+set_property -dict {PACKAGE_PIN B6 IOSTANDARD LVCMOS33} [get_ports {pad_cpu_rstn}]
 # AM62x PORz_OUT -> FPGA
 set_property -dict {PACKAGE_PIN F11 IOSTANDARD LVCMOS33} [get_ports {pad_cpu_porz}]
 # AM62x RESETSTATz -> FPGA
